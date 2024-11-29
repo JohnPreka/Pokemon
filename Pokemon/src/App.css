@@ -1,0 +1,44 @@
+.container {
+  margin-top: 20px;
+}
+
+.dropdown {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.dropdown option {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+}
+
+.types {
+  margin-top: 10px;
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
