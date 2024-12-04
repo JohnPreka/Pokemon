@@ -15,7 +15,7 @@ const Pokemon = ({ details }) => {
         </p>
         <div className="types">
           <p>
-            <strong>Type: </strong>
+            <strong>Ability: </strong>
           </p>
           <div className="list">
             {details.types.map((type, idx) => ( 
