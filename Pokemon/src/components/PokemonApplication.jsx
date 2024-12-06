@@ -5,7 +5,7 @@ const PokemonApplication = () => {
   const [list, setList] = useState([]); 
   const [selectedId, setSelectedId] = useState(""); 
   const [details, setDetails] = useState(null); 
-  const [errorMsg, setErrorMsg] = useState(""); 
+  const [errorMsg, setErrorMsg] = useState("")
 
   useEffect(() => {
     const fetchList = async () => { 

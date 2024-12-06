@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import PokemonApplication from "./components/PokemonApplication";
+import PokemonApplication from "./components/PokemonApplication"
 
 function App() {
   const [showApp, setShowApp] = useState(false); 

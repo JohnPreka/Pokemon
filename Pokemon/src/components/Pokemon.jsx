@@ -28,4 +28,4 @@ const Pokemon = ({ details }) => {
   );
 };
 
-export default Pokemon;
+export default Pokemon
